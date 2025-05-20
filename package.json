@@ -1,0 +1,19 @@
+{
+    "name": "template_esri_calcite_components_user_login",
+    "version": "0.0.0",
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build"
+    },
+    "devDependencies": {
+        "@types/node": "^22.15",
+        "prettier": "^3.5",
+        "typescript": "^5.8",
+        "vite": "^6.3"
+    },
+    "dependencies": {
+        "@arcgis/core": "~4.32.0",
+        "@arcgis/map-components": "^4.32.0"
+    }
+}
