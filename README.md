@@ -1,10 +1,6 @@
- ### About this sample
+Basemap Style Exploration
 
-### Install
+must create a file called .env.development.local and add the following:
+VITE_API_KEY='MY API KEY'
 
-To install sample and its dependencies, run `npm install`.
-
-### Run the sample
-
-To run the sample use `npm run dev`. This will compile the application and enabled you to launch it in a browser window.
-
+Alteratively just hardcode you API key in main.ts where is currently says "import.meta.env.VITE_API_KEY"
